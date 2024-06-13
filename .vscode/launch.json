@@ -1,0 +1,52 @@
+{
+  // Use IntelliSense to learn about possible attributes.
+  // Hover to view descriptions of existing attributes.
+  // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+
+  // project name
+  //${workspaceFolderBasename}
+
+  "version": "0.2.0",
+
+  "configurations": [
+    {
+      "name": "Desktop Run",
+      "type": "cppvsdbg",
+      "request": "launch",
+      "program": "${workspaceFolder}/desktop_build/${config:projectName}/Debug/${config:projectName}.exe",
+      "args": [],
+      "stopAtEntry": false,
+      "cwd": "${workspaceFolder}",
+      "environment": [],
+      "externalConsole": false,
+      "console": "internalConsole",
+      "internalConsoleOptions": "openOnSessionStart",
+      "logging": {
+        "programOutput": true,
+        "moduleLoad": false
+      },
+
+      "windows": {
+        "program": "${workspaceFolder}/desktop_build/${config:projectName}/Debug/${config:projectName}.exe"
+        // "miDebuggerPath": "C:/raylib/w64devkit/bin/gdb.exe",
+      },
+      "osx": {
+        //"MIMode": "lldb"
+      },
+      "linux": {
+        //"miDebuggerPath": "/usr/bin/gdb",
+      },
+      "preLaunchTask": "build desktop"
+    },
+    // {
+    //   "name": "Web Run",
+    //   "preLaunchTask": "build web",
+    //   "type": "bash",
+    //   "command": "run.bat",
+    //   "presentation": {"echo": true, "reveal": "always", "focus": false, "panel": "shared", "showReuseMessage": false, "clear": true},
+    //   "group": {"kind": "build", "isDefault": true},
+
+      
+    // }
+  ]
+}

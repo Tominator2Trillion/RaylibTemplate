@@ -1,0 +1,41 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "build desktop",
+            "type": "process",
+            "command": "cmake",
+            "args": [
+                "--build",
+                "desktop_build"
+            ],
+            "windows": {
+                "command": "cmake",
+                "args": [
+                    "--build",
+                    "desktop_build",
+                ]
+            },
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            },
+        },
+        {
+            "label": "build web",
+            "type": "process",
+            "command": "cmake",
+            "linux": {
+                "command": "cmake",
+                "args": [
+                    "--build",
+                    "web_build",
+                ]
+            },
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            },
+        }
+    ]
+}
