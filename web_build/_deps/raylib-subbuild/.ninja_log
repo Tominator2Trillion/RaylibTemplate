@@ -1,0 +1,21 @@
+# ninja log v6
+1	60	7399411572868136	raylib-populate-prefix/src/raylib-populate-stamp/raylib-populate-mkdir	b4f6cf894a820756
+19178	19230	7399411764708886	C:/Users/thoma/Documents/GitHub/raylib-game-template-main/web_build/_deps/raylib-subbuild/raylib-populate-prefix/src/raylib-populate-stamp/raylib-populate-patch	3ff3cfe3f7ddd8b
+19329	19386	7399411766269920	raylib-populate-prefix/src/raylib-populate-stamp/raylib-populate-install	bd1546c85951cb89
+1	60	7399411572868136	C:/Users/thoma/Documents/GitHub/raylib-game-template-main/web_build/_deps/raylib-subbuild/raylib-populate-prefix/src/raylib-populate-stamp/raylib-populate-mkdir	b4f6cf894a820756
+61	19110	7399411763509488	raylib-populate-prefix/src/raylib-populate-stamp/raylib-populate-download	6384e17c96c58063
+61	19110	7399411763509488	C:/Users/thoma/Documents/GitHub/raylib-game-template-main/web_build/_deps/raylib-subbuild/raylib-populate-prefix/src/raylib-populate-stamp/raylib-populate-download	6384e17c96c58063
+19386	19446	7399411766869225	C:/Users/thoma/Documents/GitHub/raylib-game-template-main/web_build/_deps/raylib-subbuild/raylib-populate-prefix/src/raylib-populate-stamp/raylib-populate-test	71230abc86014c76
+19118	19178	7399411764185093	C:/Users/thoma/Documents/GitHub/raylib-game-template-main/web_build/_deps/raylib-subbuild/raylib-populate-prefix/src/raylib-populate-stamp/raylib-populate-update	7f774c4ee0db579b
+19118	19178	7399411764185093	raylib-populate-prefix/src/raylib-populate-stamp/raylib-populate-update	7f774c4ee0db579b
+19178	19230	7399411764708886	raylib-populate-prefix/src/raylib-populate-stamp/raylib-populate-patch	3ff3cfe3f7ddd8b
+19230	19277	7399411765188558	raylib-populate-prefix/src/raylib-populate-stamp/raylib-populate-configure	a3af1e24ebc7be3d
+19230	19277	7399411765188558	C:/Users/thoma/Documents/GitHub/raylib-game-template-main/web_build/_deps/raylib-subbuild/raylib-populate-prefix/src/raylib-populate-stamp/raylib-populate-configure	a3af1e24ebc7be3d
+19277	19328	7399411765691686	raylib-populate-prefix/src/raylib-populate-stamp/raylib-populate-build	2bda24df4a7269dd
+19277	19328	7399411765691686	C:/Users/thoma/Documents/GitHub/raylib-game-template-main/web_build/_deps/raylib-subbuild/raylib-populate-prefix/src/raylib-populate-stamp/raylib-populate-build	2bda24df4a7269dd
+19329	19386	7399411766269920	C:/Users/thoma/Documents/GitHub/raylib-game-template-main/web_build/_deps/raylib-subbuild/raylib-populate-prefix/src/raylib-populate-stamp/raylib-populate-install	bd1546c85951cb89
+19386	19446	7399411766869225	raylib-populate-prefix/src/raylib-populate-stamp/raylib-populate-test	71230abc86014c76
+19446	19521	7399411767617044	CMakeFiles/raylib-populate-complete	7e2103b44d37818b
+19446	19521	7399411767617044	raylib-populate-prefix/src/raylib-populate-stamp/raylib-populate-done	7e2103b44d37818b
+19446	19521	7399411767617044	C:/Users/thoma/Documents/GitHub/raylib-game-template-main/web_build/_deps/raylib-subbuild/CMakeFiles/raylib-populate-complete	7e2103b44d37818b
+19446	19521	7399411767617044	C:/Users/thoma/Documents/GitHub/raylib-game-template-main/web_build/_deps/raylib-subbuild/raylib-populate-prefix/src/raylib-populate-stamp/raylib-populate-done	7e2103b44d37818b

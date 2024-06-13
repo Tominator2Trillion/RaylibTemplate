@@ -1,0 +1,21 @@
+# ninja log v6
+8	24	7399426996305288	C:/Users/thoma/Documents/GitHub/raylib-game-template-main/web_build/CMakeFiles/cmake.verify_globs	d2de566676bfd210
+50	548	7399412959642709	_deps/raylib-build/raylib/CMakeFiles/raylib.dir/utils.c.o	99210bc0b02ea7d0
+35	611	7399412959507126	_deps/raylib-build/raylib/CMakeFiles/raylib.dir/rshapes.c.o	6d4bd624778caa5
+2264	2635	7399412981744999	_deps/raylib-build/raylib/libraylib.a	c6e10ffdd6b95342
+29	218	7399424178313755	CMakeFiles/raylib-game-template.dir/src/screen_title.cpp.o	2fb48b0a9dcd887d
+106	733	7399412960219388	CMakeFiles/raylib-game-template.dir/src/screen_logo.cpp.o	ff79193e6649885
+90	738	7399412960019505	CMakeFiles/raylib-game-template.dir/src/screen_ending.cpp.o	a1e9111e7ea9a40f
+114	739	7399412960300846	CMakeFiles/raylib-game-template.dir/src/screen_options.cpp.o	ca8fbf512453ce13
+98	742	7399412960136688	CMakeFiles/raylib-game-template.dir/src/screen_gameplay.cpp.o	d058799339b4aebd
+61	759	7399412959765394	CMakeFiles/raylib-game-template.dir/src/raylib_game.cpp.o	6759dc3ca0d95744
+40	838	7399412959553907	_deps/raylib-build/raylib/CMakeFiles/raylib.dir/rtext.c.o	f495d3e348c2baf8
+26	1120	7399412959384343	_deps/raylib-build/raylib/CMakeFiles/raylib.dir/rcore.c.o	e281b006d640794d
+44	1319	7399412959592665	_deps/raylib-build/raylib/CMakeFiles/raylib.dir/rtextures.c.o	b3ae97de41bb6ca8
+31	1376	7399412959467110	_deps/raylib-build/raylib/CMakeFiles/raylib.dir/rmodels.c.o	9cd39e7a833bfe31
+55	2264	7399412959669829	_deps/raylib-build/raylib/CMakeFiles/raylib.dir/raudio.c.o	39b3a4bac9c89689
+33	1713	7399426567494612	raylib-game-template/raylib-game-template.html	f7f49bb754862ac3
+29	1155	7399427007489097	build.ninja	212c8ce5e5316047
+24	1169	7399427007489097	build.ninja	212c8ce5e5316047
+13	27	7399427008043498	C:/Users/thoma/Documents/GitHub/raylib-game-template-main/web_build/CMakeFiles/cmake.verify_globs	d2de566676bfd210
+30	1710	7399427008208404	raylib-game-template/raylib-game-template.html	ba36ab803be454aa
