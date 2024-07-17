@@ -2,40 +2,56 @@
     "version": "2.0.0",
     "tasks": [
         {
-            "label": "build desktop",
-            "type": "process",
-            "command": "cmake",
-            "args": [
-                "--build",
-                "desktop_build"
-            ],
-            "windows": {
-                "command": "cmake",
-                "args": [
-                    "--build",
-                    "desktop_build",
-                ]
+            "label": "BUILD_RUN_WEB",
+            "type": "shell",
+            "command": "buildrunweb.bat",
+            "presentation": {
+                "echo": true,
+                "reveal": "always",
+                "focus": false,
+                "panel": "shared",
+                "showReuseMessage": false,
+                "clear": true
             },
             "group": {
                 "kind": "build",
                 "isDefault": true
             },
+            "problemMatcher": []
         },
         {
-            "label": "build web",
-            "type": "process",
-            "command": "cmake",
-            "linux": {
-                "command": "cmake",
-                "args": [
-                    "--build",
-                    "web_build",
-                ]
+            "label": "BUILD_WEB",
+            "type": "shell",
+            "command": "buildweb.bat",
+            "presentation": {
+                "echo": true,
+                "reveal": "always",
+                "focus": false,
+                "panel": "shared",
+                "showReuseMessage": false,
+                "clear": true
             },
             "group": {
                 "kind": "build",
                 "isDefault": true
+            }
+        },
+        {
+            "label": "RUN_WEB",
+            "type": "shell",
+            "command": "runweb.bat",
+            "presentation": {
+                "echo": true,
+                "reveal": "always",
+                "focus": false,
+                "panel": "shared",
+                "showReuseMessage": false,
+                "clear": true
             },
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            }
         }
     ]
 }

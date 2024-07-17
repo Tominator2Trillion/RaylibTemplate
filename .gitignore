@@ -69,3 +69,5 @@ compile_commands.json
 # Android
 *apk*
 android.*
+
+/web_build

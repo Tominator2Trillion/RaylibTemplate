@@ -1,0 +1,6 @@
+//Add to prefrence keybinds for easier task running
+[
+    {"key": "cntrl+alt+1", "command": "workbench.action.tasks.runTask", "args": "BUILD_RUN"},
+    {"key": "cntrl+alt+2", "command": "workbench.action.tasks.runTask", "args": "BUILD"},
+    {"key": "cntrl+alt+3", "command": "workbench.action.tasks.runTask", "args": "RUN"}
+]
