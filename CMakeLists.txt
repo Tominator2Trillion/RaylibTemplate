@@ -1,5 +1,5 @@
 cmake_minimum_required(VERSION 3.12)
-project(raylib-game-template)
+project(raylib-cmake-template)
 
 # Generate compile_commands.json
 set(CMAKE_EXPORT_COMPILE_COMMANDS ON)

@@ -3,7 +3,8 @@
         {
             "name": "Win32",
             "includePath": [
-                "C:\\raylib\\raylib\\src\\**"
+                "${default}",
+                "C:/raylib/raylib/src"
             ],
             "defines": [
                 "_DEBUG",

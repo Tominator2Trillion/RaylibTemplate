@@ -1,7 +1,9 @@
 
+
 @echo off
-cd web_build/raylib-game-template
-python -m http.server raylib-game-template.html 8000
+cd web_build/raylib-cmake-template
+start "" http://localhost:8000
+python -m http.server --directory . 8000
 
-
+PAUSE
 

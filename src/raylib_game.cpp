@@ -13,7 +13,7 @@
 ********************************************************************************************/
 
 #include "raylib.h"
-#include "screens.h"    // NOTE: Declares global (extern) variables and screens functions
+#include "screens.hpp"    // NOTE: Declares global (extern) variables and screens functions
 
 #if defined(PLATFORM_WEB)
     #include <emscripten/emscripten.h>
@@ -52,9 +52,6 @@ static void DrawTransition(void);           // Draw transition effect (full-scre
 
 static void UpdateDrawFrame(void);          // Update and draw one frame
 
-
-
-
 //----------------------------------------------------------------------------------
 // Main entry point
 //----------------------------------------------------------------------------------
@@ -62,7 +59,7 @@ int main(void)
 {
     // Initialization
     //---------------------------------------------------------
-    InitWindow(screenWidth, screenHeight, "Game Template");
+    InitWindow(screenWidth, screenHeight, "raylib game template");
 
     InitAudioDevice();      // Initialize audio device
 

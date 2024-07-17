@@ -24,7 +24,7 @@
 **********************************************************************************************/
 
 #include "raylib.h"
-#include "screens.h"
+#include "screens.hpp"
 
 //----------------------------------------------------------------------------------
 // Module Variables Definition (local)
@@ -64,7 +64,7 @@ void DrawGameplayScreen(void)
     DrawRectangle(0, 0, GetScreenWidth(), GetScreenHeight(), PURPLE);
     Vector2 pos = { 20, 10 };
     DrawTextEx(font, "GAMEPLAY SCREEN", pos, font.baseSize*3.0f, 4, MAROON);
-    DrawText("PRESS ENTER or TAP to JUMP to ENDING SCREEN", 130, 220, 20, MAROON);
+    DrawText("PRESS ENTER or TAP to JUMP4 to ENDING SCREEN", 130, 220, 20, MAROON);
 }
 
 // Gameplay Screen Unload logic
