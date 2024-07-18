@@ -9,6 +9,12 @@ Intall Ninja: https://ninja-build.org/
 Install Emscripten: https://emscripten.org/docs/getting_started/downloads.html
 
 
+
+Run the following command to setup the desktop build:
+```sh
+cmake -S . -B desktop_build
+```
+
 Run the following command to setup the web build:
 ```sh
 cmake -B web_build -G Ninja -DPLATFORM=Web "-DCMAKE_TOOLCHAIN_FILE=C:/emsdk/upstream/emscripten/cmake/Modules/Platform/Emscripten.cmake"
@@ -16,24 +22,42 @@ cmake -B web_build -G Ninja -DPLATFORM=Web "-DCMAKE_TOOLCHAIN_FILE=C:/emsdk/upst
 _Replace "C:/emsdk" to the path of emsdk(emscripten) on your computer_
 
 
+
 -----------------------------------
 ## Running 
 
 ### Visual Studio Code
 
+### Desktop Build
+
+Run from the Run and Debug Tab,
+The Run window dropdown
+or
+By pressing f5
+
+### Web Build
+
 Automatic building and running is setup for Visual Studio Code
 
-Cntrl + Shift + P -> Run task ->  BUILD_RUN_WEB
+Cntrl + Shift + P -> Run task ->  Build & Run Web
 --
 1. Copies the resource to the output
 2. Builds the project
 3. Hosts and opens the application
 --
 
-BUILD_WEB -> Only copies resources and builds
-RUN_WEB -> Only hosts and opens the application
+| Build Web -> Only copies resources and builds |
+| Run Web -> Only hosts and opens the application |
 
 ### Non-Visual Studio Code
+
+### Desktop Build
+
+cmake --build desktop_build
+
+locate the build in desktop_build\raylib-cmake-template\Debug and run
+
+### Web Build
 
 1. Copy src/resources to web_build/resources
 

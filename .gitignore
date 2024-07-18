@@ -71,3 +71,4 @@ compile_commands.json
 android.*
 
 /web_build
+/desktop_build
